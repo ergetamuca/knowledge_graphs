@@ -8,8 +8,8 @@ The Dash application will run within Jupyter, so here are some instructions on r
 2. If you hit a "404 Error: Page not Found" error at the very bottom of the notebook, proceed with the following steps in a new terminal window: <br>
   a. Type the following lines on the terminal:
     <br><br>
-          <i> pip uninstall jupyter_server_proxy </i> 
-          <i> pip install jupyter_server_proxy </i> 
-          <i> jupyter serverextension enable jupyter_server_proxy </i> 
+          <i> pip uninstall jupyter_server_proxy </i> <br>
+          <i> pip install jupyter_server_proxy </i> <br>
+          <i> jupyter serverextension enable jupyter_server_proxy </i>  <br>
     <br><br>
   b. Re-start your Jupyter Notebook and run everything again. 
